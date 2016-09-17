@@ -35,7 +35,7 @@ var pStage = enchant.Class.create(Scene, {
     initialize: function(game) {
         Scene.call(this);
         this.backgroundColor = 'green';
-        this.label1 = new pLabel(this, 'Distance: ', 0, 0,);
+        this.label1 = new pLabel(this, 'Distance: ', 0, 0);
         this.label2 = new pLabel(this, 'TIme: ', 0, 32);
         game.pushScene(this);
     }
