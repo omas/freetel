@@ -19,14 +19,13 @@ class Timer {
 
 var pLabel = enchant.Class.create(Label, {
     initialize: function(stage, text, x, y) {
-        Label.call(this,text);
+        Label.call(this, text);
         this.width = stage.width;
         stage.addChild(this);
         this.font = '32px cursive';
         this.color = 'white';
         this.x = x;
         this.y = y;
-        this.text = 'result:';
     }
 });
 
